@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV - Lionel Messi</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero__left">
+        <div class="hero__left--img">
+          <img src="./img/messi.jpg" alt="messi" />
+        </div>
+        <h1>Lionel Andres Messi Cuccittini</h1>
+        <div class="hero__left--icons">
+          <div class="hero__left--icons__link">
+            <i class="fa-solid fa-location-dot"></i><span>Paris</span>
+          </div>
+          <div class="hero__left--icons__link">
+            <a href="https://www.instagram.com/leomessi/" target="_blank">
+              <i class="fa-brands fa-instagram"></i><span>leomessi</span>
+            </a>
+          </div>
+          <div class="hero__left--icons__link">
+            <a href="https://messi.com/" target="_blank">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ><span>messi.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__right">
+        <a href="#formacion" class="link">Formación</a>
+        <a href="#trayectoria" class="link">Trayectoria</a>
+        <a href="#logros" class="link">Logros</a>
+      </div>
+    </section>
+    <section id="formacion">
+      <h1 class="section__title">Formación</h1>
+      <div class="cards">
+        <div class="cards-container">
+          <div class="info__card">
+            <div class="info__card-img">
+              <img src="./img/grandoli.jpg" alt="grandoli" />
+            </div>
+
+            <div class="info__card-text">
+              <h2 class="info__card-text--year">1993 - 1995</h2>
+              <p class="info__card-text--name">Club Abanderado Grandoli</p>
+              <p class="info__card-text--location">Rosario, Santa Fe</p>
+            </div>
+          </div>
+          <div class="info__card">
+            <div class="info__card-img">
+              <img src="./img/newells.jpg" alt="newells" />
+            </div>
+
+            <div class="info__card-text">
+              <h2 class="info__card-text--year">1995 - 2000</h2>
+              <p class="info__card-text--name">
+                Club Atlético Newell's Old Boys
+              </p>
+              <p class="info__card-text--location">Rosario, Santa Fe</p>
+            </div>
+          </div>
+          <div class="info__card">
+            <div class="info__card-img">
+              <img src="./img/barcelona-juv.jpg" alt="barcelona" />
+            </div>
+
+            <div class="info__card-text">
+              <h2 class="info__card-text--year">2000 - 2005</h2>
+              <p class="info__card-text--name">Juveniles FC Barcelona</p>
+              <p class="info__card-text--location">Barcelona, España</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="trayectoria">
+      <h1 class="section__title">Trayectoria</h1>
+      <div class="cards-wrapper">
+        <div class="clubes-container">
+          <div class="clubes-card">
+            <div class="clubes-card__img">
+              <img
+                src="./img/barcelona-primera.jpg"
+                alt="messi en el barcelona"
+              />
+            </div>
+            <div class="info__card-text">
+              <h2 class="info__card-text--year">2005 - 2021</h2>
+              <p class="info__card-text--name">FC Barcelona</p>
+              <p class="info__card-text--location">Barcelona, España</p>
+            </div>
+          </div>
+          <div class="clubes-card">
+            <div class="clubes-card__img">
+              <img src="./img/messi-psg.jpg" alt="messi en el psg" />
+            </div>
+            <div class="info__card-text">
+              <h2 class="info__card-text--year">2021 - Presente</h2>
+              <p class="info__card-text--name">PSG</p>
+              <p class="info__card-text--location">Barcelona, España</p>
+            </div>
+          </div>
+        </div>
+        <div class="info__card">
+          <div class="info__card-img">
+            <img src="./img/argentina.jpg" alt="barcelona" />
+          </div>
+          <div class="info__card-text">
+            <h2 class="info__card-text--year">2005 - Presente</h2>
+            <p class="info__card-text--name">Selección Argentina</p>
+            <p class="info__card-text--location">Buenos Aires, Argentina</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="logros">
+      <h1 class="section__title">Logros</h1>
+      <div class="logros__wrapper">
+        <div class="logros">
+          <h2>Premios Individuales</h2>
+          <div class="logros__cards-container">
+            <div class="logros__card">
+              <h3>Balón de Oro: 7</h3>
+              <img
+                src="./img/balondoro.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2009, 2010, 2011, 2012, 2015, 2019, 2021</p>
+            </div>
+            <div class="logros__card">
+              <h3>FIFA World Player</h3>
+              <img
+                src="./img/fifaworldplayer.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2009</p>
+            </div>
+            <div class="logros__card">
+              <h3>The Best: 2</h3>
+              <img
+                src="./img/thebest.jpeg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2019, 2022</p>
+            </div>
+            <div class="logros__card">
+              <h3>Bota de Oro: 6</h3>
+              <img
+                src="./img/botadeoro.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2009/10, 2011/12, 2012/13, 2016/17, 2017/18, 2018/19</p>
+            </div>
+            <div class="logros__card">
+              <h3>Pichichi de LaLiga: 8</h3>
+              <img
+                src="./img/pichichi.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>
+                2009/10, 2011/12, 2012/13, 2016/17, 2017/18, 2018/19, 2019/20,
+                2020/21
+              </p>
+            </div>
+            <div class="logros__card">
+              <h3>MVP LaLiga: 9</h3>
+              <img src="./img/mvp.jpg" alt="premio" class="logros__card-img" />
+              <p>
+                2008/09, 2009/10, 2010/11, 2011/12, 2012/13, 2014/15, 2016/17,
+                2017/18, 2018/19
+              </p>
+            </div>
+            <div class="logros__card">
+              <h3>Mejor jugador de europa: 2</h3>
+              <img
+                src="./img/champions.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2010/11, 2014/15</p>
+            </div>
+            <div class="logros__card">
+              <h3>Balón de Oro del Mundial: 2</h3>
+              <img
+                src="./img/mundialdeoro.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2014, 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="logros">
+          <h2>FC Barcelona</h2>
+          <div class="logros__cards-container">
+            <div class="logros__card">
+              <h3>Champions League: 4</h3>
+              <img
+                src="./img/thechampions.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2005/06, 2008/09, 2010/11, 2014/15</p>
+            </div>
+            <div class="logros__card">
+              <h3>LaLiga</h3>
+              <img
+                src="./img/laligachamp.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>
+                2004/05, 2005/06, 2008/09, 2009/10, 2010/11, 2012/13, 2014/15,
+                2015/16, 2017/18, 2018/19
+              </p>
+            </div>
+            <div class="logros__card">
+              <h3>Copa del rey: 7</h3>
+              <img
+                src="./img/copadelrey.jpeg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>
+                2008/09, 2011/12, 2014/15, 2015/16, 2016/17, 2017/18, 2020/21
+              </p>
+            </div>
+            <div class="logros__card">
+              <h3>Mundial de clubes: 3</h3>
+              <img
+                src="./img/mundialclubes.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2009, 2011, 2015</p>
+            </div>
+            <div class="logros__card">
+              <h3>Supercopa de Europa: 3</h3>
+              <img
+                src="./img/supereuropa.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2009/10, 2011/12, 2015/16</p>
+            </div>
+            <div class="logros__card">
+              <h3>Supercopa de España: 8</h3>
+              <img
+                src="./img/superespana.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>
+                2005/06, 2006/07, 2009/10, 2010/11, 2011/12, 2013/14, 2016/17,
+                2018/19
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="logros">
+          <h2>Paris Saint-Germain</h2>
+          <div class="logros__cards-container">
+            <div class="logros__card">
+              <h3>League 1</h3>
+              <img
+                src="./img/ligueone.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2021/22</p>
+            </div>
+            <div class="logros__card">
+              <h3>Supercopa de Francia</h3>
+              <img
+                src="./img/superfrancia.jpeg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2022/23</p>
+            </div>
+          </div>
+        </div>
+        <div class="logros">
+          <h2>Selección Argentina</h2>
+          <div class="logros__cards-container">
+            <div class="logros__card">
+              <h3>Mundial Sub 20</h3>
+              <img
+                src="./img/sub20.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2005</p>
+            </div>
+            <div class="logros__card">
+              <h3>Medalla de Oro JJOO Beijing</h3>
+              <img
+                src="./img/olimpicos.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2008</p>
+            </div>
+            <div class="logros__card">
+              <h3>Copa América</h3>
+              <img
+                src="./img/copaamerica.jpg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2021</p>
+            </div>
+            <div class="logros__card">
+              <h3>Copa del mundo</h3>
+              <img
+                src="./img/campeonmundialarg.jpeg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2022</p>
+            </div>
+            <div class="logros__card">
+              <h3>Finalissima</h3>
+              <img
+                src="./img/finalissima.jpeg"
+                alt="premio"
+                class="logros__card-img"
+              />
+              <p>2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
