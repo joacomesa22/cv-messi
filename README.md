@@ -1,3 +1,2 @@
 # cv-messi
-Producción Digital II
-Joaquin Mesa
+Producción Digital II - Joaquin Mesa
